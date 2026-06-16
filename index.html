@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Revamp Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card {
+            padding: 40px;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .status {
+            color: green;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🚀 HR Revamp Portfolio</h1>
+        <p class="status">GitHub Pages is Working Successfully</p>
+
+        <p>
+            This is a test deployment from GitHub Pages.
+        </p>
+
+        <p>
+            If you can see this page, your portfolio website is live.
+        </p>
+
+        <hr>
+
+        <p>
+            Deployed on: <span id="date"></span>
+        </p>
+    </div>
+
+    <script>
+        document.getElementById("date").innerText =
+            new Date().toLocaleString();
+    </script>
+</body>
+</html>
